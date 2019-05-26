@@ -1,9 +1,12 @@
 # Primary input file for VPLANET
-sSystemName               ChaosRes  # System Name
+sSystemName               muarae  # System Name
 bOverwrite                1               # Allow file overwrites?
-saBodyFiles               star.in $     # Host star
-                          earth.in $    # Inner Earth-like planet
-                          outer.in      # Outer Neptune-mass planet in 3:1 MMR
+saBodyFiles               star.in $       # Host star
+                          b.in $          # Third planet
+                          c.in $          # First planet
+                          d.in $          # Second planet
+                          e.in            # Fourth planet
+
 sIntegrationMethod        Runge
 
 # Input/Output Units
@@ -14,7 +17,7 @@ sUnitAngle                deg             # Options: deg, rad
 
 # Input/Output
 bDoLog                    1               # Write a log file?
-iDigits                   16              # Maximum number of digits to right of decimal
+iDigits                   4              # Maximum number of digits to right of decimal
 dMinValue                 1e-10           # Minimum value of eccentricity/obliquity
 iSciNot                   4
 
@@ -23,4 +26,4 @@ bDoForward                1               # Perform a forward evolution?
 bVarDt                    1               # Use variable timestepping?
 dEta                      0.001
 dStopTime                 1e6            # Stop time for evolution
-dOutputTime               100            # Output timesteps (assuming in body files)
+dOutputTime               1e3            # Output timesteps (assuming in body files)
