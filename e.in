@@ -16,5 +16,5 @@ dLongA                    112.7344   # Longitude of ascending node (deg)
 dArgP                     32.7858    # Argument of pericenter (deg)
 dMeanA                    358.0000   # Mean Anomaly (deg)
 
-saOutputOrder   Time SemiMajorAxis Eccentricity SpiNBodyInc LongP SpiNBodyLongA $
+saOutputOrder   Time SemiMajorAxis Eccentricity SpiNBodyInc SpiNBodyLongA ArgP $
                 MeanL
