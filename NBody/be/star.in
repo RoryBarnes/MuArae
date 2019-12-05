@@ -1,0 +1,18 @@
+# Planet a parameters
+sName                     star               # Body's name
+saModules                 spinbody          # Modules to apply, exact spelling required
+
+saOutputOrder Time TotAngMom TotOrbEnergy
+# Physical Properties
+dMass                     1.13            # Mass, negative -> Earth masses
+
+# SpiNBody Properties
+bUseOrbParams            1
+
+# Orbital Properties
+dSemi                    0.0          # Semi-major axis, negative -> AU
+dEcc                     0.0          # Eccentricity
+dInc                     0.0          # Inclination
+dLongP                   0.0          # Longitude of pericenter
+dLongA                   0.0          # Longitude of ascending node
+dMeanA                   0.0          # Mean Anomaly
