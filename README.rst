@@ -1,28 +1,4 @@
-The Mu Arae Planetary system
+Orbital Modeling of the Mu Arae Planetary system
 ============
 
-Overview
---------
-
-===================   ============
-**Date**              05/26/2019
-**Author**            Rory Barnes
-**Modules**           SpiNBody
-**Approx. runtime**    hr
-===================   ============
-
-To run this example
--------------------
-
-.. code-block:: bash
-
-  vplanet vpl.in
-  python makeplot.py <pdf | png>
-
-
-Expected output
----------------
-
-.. figure:: MuAraeSpiNBody.png
-   :width: 600px
-   :align: center
+This repo contains the files used to generate the orbital dynamics results described in Benedict, G.F. et al. (2020). The results are divided into 1) rotating the system to the `invariable plane <InvPlanet>`_, 2) calculating `Hill stability <HillStability>`_, and 3) `N-Body simulations <NBody>`_ of three- and four-planet solutions for the system. See each directory for information on reproducing the published results.
