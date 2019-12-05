@@ -21,6 +21,7 @@ To run this example
 
   cd be; vplanet vpl.in
   cd ../bde; vplanet vpl.in
+  cd ..
   python makeplot.py <pdf | png>
 
 
