@@ -3,6 +3,7 @@ import matplotlib as mpl
 import numpy as np
 import sys
 import subprocess as subp
+import os
 
 try:
     import vplot as vpl
@@ -23,8 +24,16 @@ figtype=sys.argv[1]
 
 ## Make figures in subdirectories
 
-cmd='cd bde; python makeplot.py '+figtype
-subp.call(cmd,shell=True)
+subdirs = [f.name for f in os.scandir() if f.is_dir() ]
 
-cmd='cd be; python makeplot.py '+figtype
-subp.call(cmd,shell=True)
+for dir in subdirs:
+    plotfile=dir+'/makeplot.py'
+    if os.path.isfile(plotfile):
+        cmd='cd '+dir+'; python makeplot.py '+figtype
+        subp.call(cmd,shell=True)
+    else:
+        print ('WARNING: '+plotfile+' not found.')
+
+
+#cmd='cd be; python makeplot.py '+figtype
+#subp.call(cmd,shell=True)
