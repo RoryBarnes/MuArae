@@ -10,7 +10,7 @@ Benedict, G.F. et al. (2020).
 ===================   ============
 **Date**              12/05/2019
 **Author**            Rory Barnes
-**Code**              _`HillStability
+**Code**              `HillStability
                       <https://github.com/RoryBarnes/HillStability>`_
 **Approx. runtime**   <1 second
 ===================   ============
