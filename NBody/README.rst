@@ -31,14 +31,14 @@ Expected output
    :width: 600px
    :align: center
 
-Fig. 1: Orbital evolution of Mu Arae d (black), b (blue), and e (red), with
-semi-major axis on top and eccentricity below. The system goes unstable after
-3,000 years
+bde/MuAraeSpiNBody_bde.png: Orbital evolution of Mu Arae d (black), b (blue),
+and e (red), with semi-major axis on top and eccentricity below. The system
+goes unstable after 3,000 years
 
 .. figure:: be/MuAraeSpiNBody_be.png
    :width: 600px
    :align: center
 
-Fig. 2: Orbital evolution of the Mu Arae system, but without planet d. Without
-this planet this system shows regular motion and is likely stable for Gyr
-timescales.
+be/MuAraeSpiNBody_be.png: Orbital evolution of the Mu Arae system, but without
+planet d. Without this planet this system shows regular motion and is likely
+stable for Gyr timescales.
