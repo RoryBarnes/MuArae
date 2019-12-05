@@ -10,7 +10,7 @@ Benedict, G.F. et al. (2020).
 ===================   ============
 **Date**              05/26/2019
 **Author**            Rory Barnes, Hayden Smotherman
-**Modules**           SpiNBody
+**Modules**           `VPLanet <https://github.com/VirtualPlanetaryLaboratory/vplanet>`_-SpiNBody
 **Approx. runtime**    hr
 ===================   ============
 
