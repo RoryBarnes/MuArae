@@ -5,7 +5,7 @@ Overview
 --------
 
 Orbital evolution of the Mu Arae planets with the orbital elements found in
-Benedict, G.F. et al. (2020).
+Benedict, G.F. et al. (2020) as predicted by VPLanet's SpiNBody module.
 
 ===================   ============
 **Date**              05/26/2019
