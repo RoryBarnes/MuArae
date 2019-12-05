@@ -9,7 +9,7 @@ Benedict, G.F. et al. (2020).
 
 ===================   ============
 **Date**              05/26/2019
-**Author**            Rory Barnes
+**Author**            Rory Barnes, Hayden Smotherman
 **Modules**           SpiNBody
 **Approx. runtime**    hr
 ===================   ============
